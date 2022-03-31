@@ -1,6 +1,8 @@
 This website is done by using node.js to create a react app and used in it Bootstrap grid system for better responsive design and I used font awesome where I got the search logo and the link logo.
 The code got many comments which will help you understand it
 
+PS: The search field and didn't store the data to mongodb because I didn't learn these but I have the curiosity to learn while working for your company! 
+
 
 
 
