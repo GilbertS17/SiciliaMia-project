@@ -1,0 +1,105 @@
+body{
+  background-color: rgb(107,101,52);
+  padding: 30px 0;
+  font-family: sans-serif;
+  color: rgb(100, 100, 100);
+}
+
+.main-div {
+  background-color: #FFF;
+  width: 90%;
+  margin: auto;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+
+/* navbar components */
+
+.navbar{
+  display: flex;
+  justify-content: space-between
+}
+
+.sicilia-logo {
+  margin: 30px;
+  width: 100px;
+  height: 80px;
+}
+
+.search-api{
+  margin: 50px 0 40px;
+  padding: 5px 12px;
+  border: solid 2px rgb(100, 100, 100);
+  border-radius: 5px;
+  text-align: center;
+}
+
+button {
+  border: none;
+  background-color: #FFF;
+  padding: 5px;
+  margin: 0 30px 0 10px;
+}
+
+hr {
+  margin: 10px 30px 40px;
+  color: rgb(107,101,52);
+  border: solid 1px;
+  border-radius: 50%;
+}
+
+
+
+/* cards section */
+
+.cards-container{
+  width: 90%;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.card{
+  border: 1px solid rgb(168, 153, 36);
+  height: 250px;
+  text-align: center;
+  margin-bottom: 35px;
+}
+
+.card:hover {
+  background-color: rgb(168, 153, 36);
+}
+
+
+/* card infos */
+
+.card-api {
+  font-size: 32px;
+  letter-spacing: 2px;
+  font-weight: 500;
+  margin-bottom: 30px;
+  text-decoration: underline;
+  margin-top: 30px;
+}
+
+.card-link {
+  text-decoration: none;
+  color: rgb(100, 100, 100);
+}
+
+.card-link:hover {
+  color: #FFF;
+}
+
+.card-bottom {
+  display: flex;
+  justify-content: space-evenly;
+  border: none;
+  margin-top: 30px;
+}
+
+.bold {
+  font-weight: bold;
+}
