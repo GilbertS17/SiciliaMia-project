@@ -13,7 +13,7 @@ PS: The search field and didn't store the data to mongodb because I didn't learn
     If the website shows a blank page, it is because the api is not fetching the data because the API has maximum request limit.
     To fix this you should:
     1- Comment {cards} both where it is declared and after the return in App.js 
-    2- Uncommenting the h1 which has a text of Hello world so it is displayed in the website
+    2- Uncommenting the h1 which has a text of "!!!Go to README.md and read the important section!!!" so it is displayed in the website
     3- Go to the console and see what the console is logging out 
     4- If it is an empty array than refresh the webpage untill it logs an object with 1420 items
     5- When it logs this object comment the h1 that you uncommented before
