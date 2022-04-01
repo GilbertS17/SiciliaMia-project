@@ -18,14 +18,15 @@ function App() {
     console.log(apiData)  
   },[])
   
-  
-  const cards = apiData.entries.map(item => {
-    return (
-      <Card 
-        item={item}
-      />
-    )
-  })
+  // ⬇⬇ Uncomment here 1st ⬇⬇
+
+  // const cards = apiData.entries.map(item => {
+  //   return (
+  //     <Card 
+  //       item={item}
+  //     />
+  //   )
+  // })
 
   
   return (
@@ -35,8 +36,11 @@ function App() {
       <div className="cards-container">
         <Container>
           <Row>
-            {cards}
-            {/* <h1>!!!Go to README.md and read the important section!!!</h1> */}
+            {/* ⬇⬇ Uncomment here 2nd ⬇⬇ */}
+            {/* {cards} */}
+            
+            {/* ⬇⬇ Comment here ⬇⬇*/}
+            <h1>!!!Go to README.md and read the important section!!!</h1>
           </Row>
         </Container>
 
